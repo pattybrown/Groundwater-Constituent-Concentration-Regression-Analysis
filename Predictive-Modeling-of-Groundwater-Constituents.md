@@ -178,4 +178,4 @@ ggplot(X20b_data, aes(sample, fluoride)) + geom_point() +
   geom_text(aes(25.92, 4), label = "25.92", size = 3, hjust = -0.2, vjust = -1)
 ```
 
-![](Predictive-Modeling-of-Groundwater-Constituents_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](https://github.com/pattybrown/Groundwater-Constituent-Concentration-Regression-Analysis/blob/main/Figures/unnamed-chunk-10-1.png)<!-- -->
