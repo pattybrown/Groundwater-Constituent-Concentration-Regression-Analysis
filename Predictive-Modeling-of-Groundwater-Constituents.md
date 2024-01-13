@@ -63,13 +63,13 @@ qqnorm(antimony_residuals)
 qqline(antimony_residuals)
 ```
 
-![](Predictive-Modeling-of-Groundwater-Constituents_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](https://github.com/pattybrown/Groundwater-Constituent-Concentration-Regression-Analysis/blob/main/Figures/unnamed-chunk-4-1.png)<!-- -->
 
 ``` r
 plot(density(antimony_residuals))
 ```
 
-![](Predictive-Modeling-of-Groundwater-Constituents_files/figure-gfm/unnamed-chunk-4-2.png)<!-- -->
+![](https://github.com/pattybrown/Groundwater-Constituent-Concentration-Regression-Analysis/blob/main/Figures/unnamed-chunk-4-2.png)<!-- -->
 
 Return prediction for y = 0.006 - antimony Groundwater Protection
 Standard (GWPS):
@@ -118,13 +118,13 @@ qqnorm(fluoride_residuals)
 qqline(fluoride_residuals)
 ```
 
-![](Predictive-Modeling-of-Groundwater-Constituents_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](https://github.com/pattybrown/Groundwater-Constituent-Concentration-Regression-Analysis/blob/main/Figures/unnamed-chunk-7-1.png)<!-- -->
 
 ``` r
 plot(density(fluoride_residuals))
 ```
 
-![](Predictive-Modeling-of-Groundwater-Constituents_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
+![](https://github.com/pattybrown/Groundwater-Constituent-Concentration-Regression-Analysis/blob/main/Figures/unnamed-chunk-7-2.png)<!-- -->
 
 Return prediction for y = 4 (fluoride GWPS):
 
@@ -161,7 +161,7 @@ ggplot(X20b_data, aes(sample, antimony)) + geom_point() +
   geom_text(aes(21.82, 0.006), label = "21.82", size = 3, hjust = -0.2, vjust = -1)
 ```
 
-![](Predictive-Modeling-of-Groundwater-Constituents_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](https://github.com/pattybrown/Groundwater-Constituent-Concentration-Regression-Analysis/blob/main/Figures/unnamed-chunk-9-1.png)<!-- -->
 
 ``` r
 ggplot(X20b_data, aes(sample, fluoride)) + geom_point() +
